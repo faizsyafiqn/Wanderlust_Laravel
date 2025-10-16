@@ -10,8 +10,8 @@
         <div class="logo-container">
             <img src="{{ asset('images/logo.png') }}" alt="Logo" class="logo">
             <div class="logo-text">
-                <div class="title">FAIZ Travel</div>
-                <div class="subtitle">Explore The Beauty</div>
+                <div class="title">WANDERLUST</div>
+                <div class="subtitle">WANDERS FOR WONDERS</div>
             </div>
         </div>
 

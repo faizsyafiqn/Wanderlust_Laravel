@@ -13,7 +13,7 @@ class ProfilController extends Controller
             'nama' => 'Faiz Syafiq Nabily',
             'email' => 'faiz@example.com',
             'telepon' => '081234567890',
-            'tanggal_lahir' => '2003-06-15',
+            'tanggal_lahir' => '2005-04-04',
             'jenis_kelamin' => 'Laki-laki',
             'alamat' => 'Jl. Merdeka No. 45, Bandung',
             'foto' => 'faiz.jpg'
@@ -24,7 +24,7 @@ class ProfilController extends Controller
 
     public function update(Request $request)
     {
-        // Sementara belum pakai database, hanya tampilkan pesan sukses
+        
         return redirect()->back()->with('success', 'Profil berhasil diperbarui!');
     }
 }
